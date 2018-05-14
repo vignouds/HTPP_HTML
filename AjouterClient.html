@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Gestion des clients</title>
+</head>
+<body>
+  <section>
+    <h1>Gestion des clients</h1>
+    <h2>Cration d'un client</h2>
+    <form method="post" action="./script/ajouter-client.php">
+      <p><label for="nom">Nom</label><input type="text" id="nom" /></p>
+      <p><label for="prenom">Prénom</label><input type="text" id="prenom" /></p>
+      <p><label for="ville">Ville</label><input type="text" id="ville" /></p>
+      <p><label for="age">Age</label><input type="text" id="age" /></p>
+      <p><input type="submit" value="Ajouter" /></p>
+    </form>
+  </section>
+  <section>
+    <p>L'insertion a été correctement effectuée</p>
+    <p><a href="./acceuil.html">Retour</a></p>
+  </section>
+  <section>
+    <p>L'insertion a échoué</p>
+    <p><a href="./acceuil.html">Retour</a></p>
+  </section>
+</body>
+</html>
