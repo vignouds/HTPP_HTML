@@ -8,7 +8,7 @@
   <h1>Gestion des commandes</h1>
   <h2>Ajout d'une commande</h2>
   <p><a href="./acceuil.html">Retour à l'acceuil</a></p>
-  <form method="post" action="./script/ajouter-commande.php">
+    <form method="POST" action="./script/ajouter-commande.php">
     <p><label for="numero">Numéro</label><input type="text" id="numero" /></p>
     <p><label for="date">Date</label><input type="date" id="date" /></p>
     <p><label for="livreur">Livreur</label><select id="livreur" />
@@ -16,6 +16,7 @@
     </select></p>
     <p><label for="client">Client</label><select id="client" />
       <option>Sophie ARMANI</option>
+      <option>Laurent BERURIER</option>
     </select></p>
     <p><input type="submit" value="Ajouter" /></p>
   </form>
